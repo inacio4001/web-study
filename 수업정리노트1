@@ -1,0 +1,36 @@
+* Git 명령어 (리눅스 명령어)
+ls -al : 폴더에 있는 내용 전부 보기
+cd 폴더명
+cd..
+touch 파일명 : 파일 생성
+mkdir 폴더명 : 폴더 생성
+rm -rf 폴더명 : 폴더 삭제
+
+* github 사용법
+브랜치(branch)를 딴다
+메인화면- 메인코드 관리자(Master branch)
+로그인화면 - B (B branch)
+
+명령어
+git add
+git commit
+git push
+git pull request
+merge 코디 합치기
+declined or comment : 반려
+
+github
+id: heukmyo1@gmail.com
+pw: woodmousetag1
+name:inacio4001
+
+new로 시작
+git remote add origin https://github.com/inacio4001/web-study.git : github와 내 컴 연
+
+내컴에 만들어둔 폴더 githug 연결
+git에서 git init 라는 명령어 입력 : 이 폴더는 github의 성격을 갖습니다
+git remote add origin https://github.com/inacio4001/web-study.git 입력 : github와 연결
+git 명령어 : github 명령어 입려기
+ git remote add origin https://github.com/inacio4001/web-study.git : 주소를 이 폴더에 연결시키겠음(초기 세팅때 한번 나오는 명령어)
+git add . : 파일 안에 있는 모든 파일을 업로드할 준비를 함
+git commit -m '처음 커밋하는 날' : 업로드할 때 ''안에 있는 명령어를 함께 전송
